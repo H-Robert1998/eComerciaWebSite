@@ -7,9 +7,18 @@ function BrowseRangeSectionItems (){
     return(
         <div className="browseRangeSectionItems_container">
             <div className="browseRangeSectionItems_container_blok">
-                <img src={BrowseRangeimg1} alt="furniture" width={381} height={480}/>
-                <img src={BrowseRangeimg2} alt="furniture" width={381} height={480}/>
-                <img src={BrowseRangeimg3} alt="furniture" width={381} height={480}/>
+                <div className="browseRangeSectionItems_container_blok_textcentr">
+                    <img src={BrowseRangeimg1} alt="furniture" width={381} height={480}/>
+                    <p>Dining</p>
+                </div>
+                <div className="browseRangeSectionItems_container_blok_textcentr">
+                    <img src={BrowseRangeimg2} alt="furniture" width={381} height={480}/>
+                    <p>Living</p>
+                </div>
+                <div className="browseRangeSectionItems_container_blok_textcentr">
+                    <img src={BrowseRangeimg3} alt="furniture" width={381} height={480}/>
+                    <p>Bedroom</p>
+                </div>
             </div>
         </div>
     );
