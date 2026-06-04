@@ -1,11 +1,11 @@
-// import "./HomePage.css"
+import Header from "../components/header/Header";
 
-// function HomePage (){
+function HomePage (){
 
-//     return(
-//         <div className="homePage_container">
-//             HomePage
-//         </div>
-//     );
-// }
-// export default HomePage
+    return(
+        <div className="homePage_container">
+            <Header />
+        </div>
+    );
+}
+export default HomePage

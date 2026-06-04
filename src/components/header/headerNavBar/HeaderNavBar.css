@@ -1,0 +1,28 @@
+.headerNavBar_container{
+    ul {
+        display: flex;
+        gap: 75px;
+        color: black;
+        li{
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+        }
+        a:visited{
+            color:black
+        }
+        a:active {
+            color:black
+        }
+        
+    }
+}
+@media (max-width: 1023px) {
+    .headerNavBar_container {
+       display: none;
+    }
+}

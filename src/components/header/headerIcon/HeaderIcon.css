@@ -1,0 +1,10 @@
+.headerIcon_container{
+    display: flex;
+    gap: 45px;
+}
+@media (max-width: 767px) {
+    
+    .headerIcon_container {
+        display: none;
+    }
+}
