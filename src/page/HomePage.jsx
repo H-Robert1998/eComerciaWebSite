@@ -1,5 +1,6 @@
 import Header from "../components/header/Header";
 import HeroSection from "../components/homePageComponets/heroSection/HeroSection";
+import BrowseRangeSection from "../components/homePageComponets/browseRangeSection/BrowseRangeSection";
 
 function HomePage (){
 
@@ -7,6 +8,7 @@ function HomePage (){
         <div className="homePage_container">
             <Header />
             <HeroSection/>
+            <BrowseRangeSection/>
         </div>
     );
 }

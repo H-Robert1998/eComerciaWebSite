@@ -97,29 +97,29 @@
 @media (max-width: 767px) {
     
     .heroSectionCard_container_blok {
-        width: 150px;
-        height: 100px;
+        width: 180px;
+        height: 120px;
         margin-bottom: 5px;
         margin-right: 5px;
         padding-left: 7px;
         .heroSectionCard_container_blok_text1{
-            font-size: 5px;
+            font-size: 8px;
             margin-top: 5px;
         }
         .heroSectionCard_container_blok_text2{
-            font-size: 12px;
+            font-size: 16px;
             margin-top: 5px;
         }
         .heroSectionCard_container_blok_text3{
-            font-size: 5px;
+            font-size: 8px;
             margin-top: 2px;
         }
         .heroSectionCard_container_blok_btn{
-            width: 50px;
-            height: 25px;
+            width: 75px;
+            height: 40px;
             background-color: #B88E2F;
-            margin-top: 10px;
-            font-size: 5px;
+            margin-top: 12px;
+            font-size: 10px;
         }
     }
 }
