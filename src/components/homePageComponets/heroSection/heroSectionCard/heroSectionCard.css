@@ -1,0 +1,125 @@
+.heroSectionCard_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.heroSectionCard_container_blok{
+    width: 600px;
+    height: 400px;
+    background-color: #FFF3E3;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    margin-right: 58px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.heroSectionCard_container_blok_text1{
+    font-size: 16px;
+    color: black;
+    margin-top: 62px;
+}
+.heroSectionCard_container_blok_text2{
+    font-size: 52px;
+    color: #B88E2F;
+    margin-top: 4px;
+}
+.heroSectionCard_container_blok_text3{
+    font-size: 18px;
+    color: black;
+    margin-top: 12px;
+}
+.heroSectionCard_container_blok_btn{
+    width: 222px;
+    height: 74px;
+    background-color: #B88E2F;
+    margin-top: 46px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1439px) {
+    .heroSectionCard_container_blok {
+        width: 400px;
+        height: 300px;
+        margin-bottom: 40px;
+        margin-right: 30px;
+        .heroSectionCard_container_blok_text1{
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        .heroSectionCard_container_blok_text2{
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        .heroSectionCard_container_blok_text3{
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        .heroSectionCard_container_blok_btn{
+            width: 150px;
+            height: 50px;
+            background-color: #B88E2F;
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 1023px) {
+    .heroSectionCard_container_blok {
+        width:350px;
+        height: 200px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+        .heroSectionCard_container_blok_text1{
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        .heroSectionCard_container_blok_text2{
+            font-size: 24px;
+            margin-top: 12px;
+        }
+        .heroSectionCard_container_blok_text3{
+            font-size: 12px;
+            margin-top: 12px;
+        }
+        .heroSectionCard_container_blok_btn{
+            width: 150px;
+            height: 50px;
+            background-color: #B88E2F;
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    
+    .heroSectionCard_container_blok {
+        width: 150px;
+        height: 100px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        padding-left: 7px;
+        .heroSectionCard_container_blok_text1{
+            font-size: 5px;
+            margin-top: 5px;
+        }
+        .heroSectionCard_container_blok_text2{
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .heroSectionCard_container_blok_text3{
+            font-size: 5px;
+            margin-top: 2px;
+        }
+        .heroSectionCard_container_blok_btn{
+            width: 50px;
+            height: 25px;
+            background-color: #B88E2F;
+            margin-top: 10px;
+            font-size: 5px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.heroSection_container{
+    margin: auto;
+    width: 1140px;
+    height: 740px;
+    background-image: url("../../../img/homePageimg/heroSection.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (max-width: 1439px) {
+    .heroSection_container {
+        width: 1024px;
+        height: 500px;
+    }
+}
+@media (max-width: 1023px) {
+    .heroSection_container {
+       width: 768px;
+       height: 350px;
+    }
+}
+@media (max-width: 767px) {
+    
+    .heroSection_container {
+        width: 320px;
+        height: 200px;
+        min-width: 320px;
+    }
+}
