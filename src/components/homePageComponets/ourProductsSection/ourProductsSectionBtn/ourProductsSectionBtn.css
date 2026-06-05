@@ -1,0 +1,22 @@
+.ourProductsSectionBtn_container{
+    width: 245px;
+    height: 48px;
+    margin: 32px auto;
+}
+.container_blok_btn{
+    width: 100%;
+    height: 100%;
+    border-: 5px;
+    border: 1px solid #B88E2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: #B88E2F;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+    
+}
