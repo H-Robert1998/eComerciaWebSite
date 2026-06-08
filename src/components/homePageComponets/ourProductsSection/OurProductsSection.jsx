@@ -7,7 +7,7 @@ function OurProductsSection() {
     return (
         <div className="ourProductsSection_container">
             <OurProductsSectionTitle />
-            <OurProductsSectionContentImg />
+            <OurProductsSectionContentImg showcount={8} />
             <OurProductsSectionBtn />
         </div>
     );

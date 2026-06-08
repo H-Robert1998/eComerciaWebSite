@@ -2,8 +2,80 @@ import "./OurProductsSectionContentImg.css";
 import DiscountNew from "./discountNew/DiscountNew";
 import imgs from "../../../../img/homePageimg/ourProductsSectionimg/imgexport.js";
 
-function OurProductsSectionContentImg() {
+function OurProductsSectionContentImg(props) {
     let arrourProducts = [
+        {
+            id: 1,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 2.500.000",
+            productcostDiscount: "Rp 3.500.000",
+            discounvalue: "30%",
+            colorbg: "#E97171",
+        },
+        {
+            id: 2,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 3.500.000",
+            productcostDiscount: "Rp 4.500.000",
+            discounvalue: "30%",
+            colorbg: "#E97171",
+        },
+        {
+            id: 3,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 2.500.000",
+            productcostDiscount: "Rp 3.500.000",
+            discounvalue: "30%",
+            colorbg: "#E97171",
+        },
+        {
+            id: 4,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 2.500.000",
+            productcostDiscount: "Rp 3.500.000",
+            discounvalue: "New",
+            colorbg: "#2EC1AC",
+        },
+        {
+            id: 5,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 2.500.000",
+            productcostDiscount: "Rp 3.500.000",
+            discounvalue: "New",
+            colorbg: "#2EC1AC",
+        },
+        {
+            id: 6,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 2.500.000",
+            productcostDiscount: "Rp 3.500.000",
+            discounvalue: "30%",
+            colorbg: "#E97171",
+        },
+        {
+            id: 7,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 2.500.000",
+            productcostDiscount: "Rp 3.500.000",
+            discounvalue: "50%",
+            colorbg: "#E97171",
+        },
+        {
+            id: 8,
+            productname: "Syltherine",
+            productInfo: "Stylish cafe chair",
+            productcost: "Rp 2.500.000",
+            productcostDiscount: "Rp 3.500.000",
+            discounvalue: "30%",
+            colorbg: "#E97171",
+        },
         {
             id: 1,
             productname: "Syltherine",
@@ -81,7 +153,7 @@ function OurProductsSectionContentImg() {
         <div className="ourProductsSectionContentImg_container">
             <div className="ourProductsSectionContentImg_container_blok">
                 {arrourProducts.map((items, index) =>
-                    index < 8 ? (
+                    index < props.showcount ? (
                         <div className="ourProductsSectionContentImg_container_blok_itemstext">
                             <img
                                 src={imgs[items.id - 1]}
