@@ -1,0 +1,99 @@
+.inspirationsSectionSlider_container {
+    margin-top: 44px;
+    margin-bottom: 44px;
+    display: flex;
+    margin-left: 42px;
+}
+.inspirationsSectionSlider_container_blok {
+    display: flex;
+    gap: 24px;
+}
+.blokImg2_radio_group2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    input {
+        display: none;
+    }
+    label {
+        width: 12px;
+        height: 12px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+    }
+    input:checked + label {
+        width: 24px;
+        height: 24px;
+        background: transparent;
+        border: 2px solid #c7962d;
+    }
+    input:checked + label:after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: #c7962d;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.inspirationsSectionSlider_container_blokImg1 {
+    position: relative;
+    .blokImg2_radio_group2 {
+        opacity: 0;
+    }
+}
+.inspirationsSectionSlider_container_blokImg1_imgcard {
+    display: flex;
+    position: absolute;
+    align-items: end;
+    top: 428px;
+    left: 24px;
+}
+.inspirationsSectionSlider_container_blokImg1_imgcard_text {
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 217px;
+    height: 130px;
+    .gitt {
+        background-color: #616161;
+        width: 27px;
+        height: 1px;
+    }
+}
+.inspirationsSectionSlider_container_blokImg1_imgcard_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #b88e2f;
+}
+@media (max-width: 1439px) {
+    .inspirationsSectionSlider_container_blokImg2 {
+        display: none;
+    }
+    .inspirationsSectionSlider_container_blokImg3 {
+        display: none;
+    }
+    .inspirationsSectionSlider_container_blokImg1 {
+        .blokImg2_radio_group2 {
+            opacity: 1;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .inspirationsSectionSlider_container {
+        margin-left: 2px;
+    }
+    .inspirationsSectionSlider_container_blokImg1 {
+        img {
+            width: 320px;
+            height: 250px;
+        }
+    }
+}
+/* #B88E2F; */

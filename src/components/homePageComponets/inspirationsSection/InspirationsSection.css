@@ -1,0 +1,16 @@
+.inspirationsSection_container{
+    width: 1440px;
+    margin: 69px auto;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    overflow: hidden;
+}
+@media (max-width: 1439px) {
+    
+    .inspirationsSection_container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

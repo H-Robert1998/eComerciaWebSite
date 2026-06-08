@@ -1,0 +1,26 @@
+.funiroFurnitureSectionTitle_container{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+.funiroFurnitureSectionTitle_container_text1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+}
+.funiroFurnitureSectionTitle_container_text2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    margin-top: 8px;
+}
+@media (max-width: 767px) {
+    
+    .funiroFurnitureSectionTitle_container {
+        top: 10px;
+    }
+}
