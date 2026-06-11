@@ -1,0 +1,172 @@
+.productComparisonSection_container {
+    width: 1440px;
+    margin: 34px auto;
+}
+.productComparisonSection_container_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.productComparisonSection_container_section_blok1 {
+    margin-left: 96px;
+    p {
+        width: 233px;
+        margin-top: 21px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 28px;
+        line-height: 126%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+    input {
+        margin-top: 21px;
+        width: 115px;
+        border: none;
+        border-bottom: 1px solid #000;
+        background: transparent;
+        outline: none;
+        font-size: 14px;
+        color: #666;
+        padding: 8px 0;
+    }
+    input::placeholder {
+        color: #9a9a9a;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+}
+.productComparisonSection_container_section_blok2 {
+    display: flex;
+    margin-left: 75px;
+    gap: 47px;
+}
+.productComparisonSection_container_section_blok2_blokimg1 {
+    background-color: #f9f1e7;
+    width: 280px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.productComparisonSection_container_section_blok2_text1 {
+    margin-top: 18px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 126%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.productComparisonSection_container_section_blok2_text2 {
+    margin-top: 6px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.productComparisonSection_container_section_blok2_reyting {
+    display: flex;
+    margin-top: 7px;
+    align-items: center;
+}
+.productComparisonSection_container_section_blok2_reyting_text1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.productComparisonSection_container_section_blok2_reyting_lineVer {
+    width: 1px;
+    height: 30px;
+    background-color: #9f9f9f;
+}
+.productComparisonSection_container_section_blok2_reyting_text2 {
+    margin-left: 9px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #9f9f9f;
+}
+.productComparisonSection_container_section_blok3 {
+    margin-top: 49px;
+    margin-left: 69px;
+}
+.productComparisonSection_container_section_blok3_text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 126%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.select-wrapper {
+    margin-top: 14px;
+    width: 242px;
+    height: 39px;
+    position: relative;
+}
+.select-wrapper select {
+    width: 100%;
+    height: 40px;
+    padding: 0 45px 0 18px;
+    border: none;
+    border-radius: 8px;
+    background: #b88d2f;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.select-wrapper::after {
+    content: "";
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: translateY(-70%) rotate(45deg);
+    pointer-events: none;
+}
+/* optioni caps poxel */
+/* option {
+    font-size: 5px;
+} */
+@media (max-width: 1439px) {
+    .productComparisonSection_container {
+        width: 100%;
+    }
+    .productComparisonSection_container_section_blok2 {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .productComparisonSection_container {
+        width: 100%;
+    }
+    .productComparisonSection_container_section {
+        justify-content: center;
+    }
+    .productComparisonSection_container_section_blok1 {
+        margin-left: 20px;
+    }
+    .productComparisonSection_container_section_blok2 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .productComparisonSection_container_section_blok3 {
+        margin-left: 20px;
+    }
+}

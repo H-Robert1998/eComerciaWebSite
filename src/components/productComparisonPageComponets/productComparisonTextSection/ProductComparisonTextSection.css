@@ -1,0 +1,47 @@
+.productComparisonTextSection_container {
+    width: 1332px;
+    margin: auto;
+}
+.productComparisonTextSection_container_blokflex {
+    display: flex;
+}
+.productComparisonTextSection_container_blokflex_line {
+    border-right: 3px solid #e8e8e8;
+    width: 355px;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+.productComparisonTextSection_container_blokflex_line_textTitle {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 28px;
+    line-height: 126%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.productComparisonTextSection_container_blokflex_line_text {
+    padding-right: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 126%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    word-break: break-all;
+}
+@media (max-width: 1439px) {
+    .productComparisonTextSection_container {
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .productComparisonTextSection_container_blokflex_line {
+        margin-left: 10px;
+    }
+    .productComparisonTextSection_container_blokflex_line_textTitle {
+        font-size: 15px;
+    }
+    .productComparisonTextSection_container_blokflex_line_text {
+        font-size: 12px;
+    }
+}
+/* border-right: 3px solid #e8e8e8; */

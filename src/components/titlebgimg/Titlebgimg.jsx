@@ -1,10 +1,12 @@
 import "./Titlebgimg.css";
 import img from "../../img/tittlebgimg/titlebgimg.jpg";
+import icon from "../../img/headerImg/headerLogo.png";
 function Titlebgimg(props) {
     return (
         <div className="titlebgimg_container">
             <div className="titlebgimg_containerimgefect"></div>
             <div className="titlebgimg_container_textblok">
+                <img src={icon} alt="icon" height={50} width={70} />
                 <p className="titlebgimg_container_textblok_text1">
                     {props.name}
                 </p>

@@ -1,0 +1,42 @@
+.contactConnectionMainSectionInfo_container {
+    margin-top: 84px;
+    margin-left: 245px;
+}
+.contactConnectionMainSectionInfo_container_blok_cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 42px;
+}
+.contactConnectionMainSectionInfo_container_blok_cart_IconText {
+    display: flex;
+    align-items: start;
+    width: 272px;
+    justify-content: space-between;
+}
+.contactConnectionMainSectionInfo_container_blok_cart_IconText_text1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.contactConnectionMainSectionInfo_container_blok_cart_IconText_text2 {
+    max-width: 212px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 4px;
+}
+@media (max-width: 1439px) {
+    .contactConnectionMainSectionInfo_container {
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .contactConnectionMainSectionInfo_container_blok {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

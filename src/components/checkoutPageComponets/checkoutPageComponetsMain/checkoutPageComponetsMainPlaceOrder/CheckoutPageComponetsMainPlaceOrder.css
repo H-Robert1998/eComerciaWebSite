@@ -1,0 +1,160 @@
+.checkoutPageComponetsMainPlaceOrder_container {
+    width: 608px;
+    height: 789px;
+    margin-left: 26px;
+    padding-right: 5px;
+}
+hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok {
+    margin-top: 70px;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_Flex1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_Product {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_Subtotal {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_ProductName {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #9f9f9f;
+    span {
+        color: black;
+    }
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_ProductValue {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_Subtotal {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_SubtotalValue {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_Total {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textblok_TotalValue {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #b88e2f;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_Flex2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_Flex2_circl1 {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: black;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_Flex2_text1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_text1 {
+    margin-top: 11px;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #9f9f9f;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_Flex2_circl2 {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #9f9f9f;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_Flex2_text2 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #9f9f9f;
+}
+.checkoutPageComponetsMainPlaceOrder_container_blok_textpolicy {
+    margin-top: 22px;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    strong {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+}
+.checkoutPageComponetsMainPlaceOrder_container_btnPlaceorder {
+    margin: 39px auto;
+    width: 318px;
+    height: 64px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+@media (max-width: 768px) {
+    .checkoutPageComponetsMain_container {
+        width: 100%;
+    }
+    .checkoutPageComponetsMainPlaceOrder_container {
+        padding-right: 25px;
+    }
+}

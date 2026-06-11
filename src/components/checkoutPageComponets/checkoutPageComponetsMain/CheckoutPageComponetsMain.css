@@ -1,0 +1,19 @@
+.checkoutPageComponetsMain_container {
+    width: 1440px;
+    margin: auto;
+}
+.checkoutPageComponetsMain_container_blok {
+    display: flex;
+    width: 1242px;
+    margin: 63px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 1439px) {
+    .checkoutPageComponetsMain_container {
+        width: 100%;
+    }
+    .checkoutPageComponetsMain_container_blok {
+        width: 100%;
+    }
+}
