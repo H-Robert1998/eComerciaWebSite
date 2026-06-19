@@ -1,4 +1,11 @@
-.headerLogo_container{
+.headerLogo_container {
     display: flex;
     gap: 5px;
+}
+.HeaderLogo_link {
+    color: black;
+    text-decoration: none;
+}
+.HeaderLogo_link:visited {
+    color: black;
 }

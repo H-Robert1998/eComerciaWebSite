@@ -1,26 +1,25 @@
-import "./HeaderNavBar.css"
-
-function HeaderNavBar (){
-
-    return(
+import "./HeaderNavBar.css";
+import { Link } from "react-router-dom";
+function HeaderNavBar() {
+    return (
         <div className="headerNavBar_container">
             <nav>
                 <ul>
-                    <a href="#">
+                    <Link to="">
                         <li>Home</li>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="shoppage">
                         <li>Shop</li>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link>
                         <li>About</li>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="contactpage">
                         <li>Contact</li>
-                    </a>
+                    </Link>
                 </ul>
             </nav>
         </div>
     );
 }
-export default HeaderNavBar
+export default HeaderNavBar;

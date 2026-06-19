@@ -1,14 +1,16 @@
-import "./Footer.css"
+import "./Footer.css";
 
-function Footer (){
-
-    return(
+function Footer() {
+    console.log("Footer");
+    return (
         <div className="footer_container">
-           <span className="footer_container_line"></span>
-           <div className="footer_container_blok">
+            <span className="footer_container_line"></span>
+            <div className="footer_container_blok">
                 <div className="footer_container_blok1_text">
                     <p className="footer_container_blok1_text1">Funiro.</p>
-                    <p className="footer_container_blok1_text2">400 University Drive Suite 200 Coral Gables,</p>
+                    <p className="footer_container_blok1_text2">
+                        400 University Drive Suite 200 Coral Gables,
+                    </p>
                     <p className="footer_container_blok1_text3">FL 33134 USA</p>
                 </div>
                 <div className="footer_container_blok2_text">
@@ -45,16 +47,21 @@ function Footer (){
                     </ul>
                 </div>
                 <div className="footer_container_blok4_text">
-                    <p className="footer_container_blok4_text1">Newsletter</p>      
+                    <p className="footer_container_blok4_text1">Newsletter</p>
                     <div className="footer_container_blok4_text_input">
-                        <input type="text"  placeholder="Enter Your Email Address"/>
+                        <input
+                            type="text"
+                            placeholder="Enter Your Email Address"
+                        />
                         <p>SUBSCRIBE</p>
                     </div>
                 </div>
-           </div>
-           <span className="footer_container_line"></span>
-           <p className="footer_container_lastText">2023 furino. All rights reverved</p>
+            </div>
+            <span className="footer_container_line"></span>
+            <p className="footer_container_lastText">
+                2023 furino. All rights reverved
+            </p>
         </div>
     );
 }
-export default Footer
+export default Footer;
