@@ -15,7 +15,7 @@ function App() {
         <>
             <BrowserRouter>
                 <div className="maincontainer">
-                    {/* <div style={{ display: "flex", gap: "5px" }}>
+                    <div style={{ display: "flex", gap: "5px" }}>
                         <Link to="">Home</Link>
                         <Link to="singleproductpage">SingleProduct</Link>
                         <Link to="productcomparisonpage">
@@ -25,7 +25,7 @@ function App() {
                         <Link to="checkoutpage">Checkout</Link>
                         <Link to="contactpage">Contact</Link>
                         <Link to="blogpage">Blog</Link>
-                    </div> */}
+                    </div>
                     <Header />
                     <Routes>
                         <Route index element={<HomePage />} />
