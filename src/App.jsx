@@ -15,7 +15,13 @@ function App() {
         <>
             <BrowserRouter>
                 <div className="maincontainer">
-                    <div style={{ display: "flex", gap: "5px" }}>
+                    <div
+                        style={{
+                            display: "flex",
+                            gap: "5px",
+                            flexWrap: "wrap",
+                        }}
+                    >
                         <Link to="">Home</Link>
                         <Link to="singleproductpage">SingleProduct</Link>
                         <Link to="productcomparisonpage">

@@ -1,6 +1,7 @@
 .contactConnectionMainSectionTittle_container {
     width: 645px;
-    margin: 98px auto;
+    margin: 48px auto;
+    margin-bottom: 0;
 }
 .contactConnectionMainSectionTittle_container_blok {
     display: flex;
