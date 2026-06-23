@@ -19,9 +19,9 @@ function CheckoutPageComponetsMainBillingDetails() {
                 </div>
                 <label htmlFor="Company">Company Name (Optional)</label>
                 <input type="text" id="Company" />
-                <p>Country / Region</p>
+                <label htmlFor="Country">Country / Region</label>
                 <div className="checkoutPageComponetsMainBillingDetails_container_blok_select-wrapper">
-                    <select name="" id="">
+                    <select name="" id="Country">
                         <option>Sri Lanka</option>
                         <option>Sri Lanka</option>
                         <option>Sri Lanka</option>
@@ -31,9 +31,9 @@ function CheckoutPageComponetsMainBillingDetails() {
                 <input type="text" id="Street" />
                 <label htmlFor="town">Town / City</label>
                 <input type="text" id="town" />
-                <p>Province</p>
+                <label htmlFor="provincedd">Province</label>
                 <div className="checkoutPageComponetsMainBillingDetails_container_blok_select-wrapper">
-                    <select name="" id="">
+                    <select name="" id="provincedd">
                         <option>Western Province</option>
                         <option>Western Province</option>
                         <option>Western Province</option>
