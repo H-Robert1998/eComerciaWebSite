@@ -1,13 +1,19 @@
-import "./FuniroFurnitureSection.css"
+import "./FuniroFurnitureSection.css";
 import FuniroFurnitureSectionTitle from "./funiroFurnitureSectionTitle/FuniroFurnitureSectionTitle";
-import FuniroFurnitureSectionContent from "./funiroFurnitureSectionContent/FuniroFurnitureSectionContent";
-function FuniroFurnitureSection (){
+const FuniroFurnitureSectionContent = lazy(
+    () =>
+        import("./funiroFurnitureSectionContent/FuniroFurnitureSectionContent"),
+);
+import { lazy, Suspense } from "react";
 
-    return(
+function FuniroFurnitureSection() {
+    return (
         <div className="funiroFurnitureSection_container">
-            <FuniroFurnitureSectionTitle/>
-            <FuniroFurnitureSectionContent/>
+            <FuniroFurnitureSectionTitle />
+            <Suspense fallback={<p>Loading</p>}>
+                <FuniroFurnitureSectionContent />
+            </Suspense>
         </div>
     );
 }
-export default FuniroFurnitureSection
+export default FuniroFurnitureSection;

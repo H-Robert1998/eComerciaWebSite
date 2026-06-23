@@ -1,13 +1,13 @@
-import "./InspirationsSectionBtn.css"
+import "./InspirationsSectionBtn.css";
 
-function InspirationsSectionBtn (){
-
-    return(
+function InspirationsSectionBtn() {
+    return (
         <div className="inspirationsSectionBtn_container">
-            <div className="container_btn">
+            <button className="container_btn" aria-label="Explore More">
                 <p>Explore More</p>
-            </div>
+            </button>
         </div>
     );
 }
-export default InspirationsSectionBtn
+export default InspirationsSectionBtn;
+//

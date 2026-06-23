@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
     console.log("Footer");
     return (
-        <div className="footer_container">
+        <div id="about" className="footer_container">
             <span className="footer_container_line"></span>
             <div className="footer_container_blok">
                 <div className="footer_container_blok1_text">
@@ -50,10 +50,11 @@ function Footer() {
                     <p className="footer_container_blok4_text1">Newsletter</p>
                     <div className="footer_container_blok4_text_input">
                         <input
+                            aria-label="Email address"
                             type="text"
                             placeholder="Enter Your Email Address"
                         />
-                        <p>SUBSCRIBE</p>
+                        <button aria-label="Subscribe">SUBSCRIBE</button>
                     </div>
                 </div>
             </div>

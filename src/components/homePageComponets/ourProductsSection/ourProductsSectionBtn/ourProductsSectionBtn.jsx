@@ -1,13 +1,15 @@
-import "./OurProductsSectionBtn.css"
+import "./OurProductsSectionBtn.css";
 
-function OurProductsSectionBtn (){
-
-    return(
+function OurProductsSectionBtn() {
+    return (
         <div className="ourProductsSectionBtn_container">
-            <div className="container_blok_btn">
+            <button
+                className="container_blok_btn"
+                aria-label="Show More product"
+            >
                 <p>Show More</p>
-            </div>
+            </button>
         </div>
     );
 }
-export default OurProductsSectionBtn
+export default OurProductsSectionBtn;

@@ -12,6 +12,15 @@
         line-height: 100%;
         letter-spacing: 0%;
     }
+    label {
+        display: block;
+        margin-top: 36px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
     input {
         margin-top: 22px;
         width: 453px;
@@ -23,6 +32,9 @@
         outline: none;
         padding: 15px 15px;
         font-size: 18px;
+    }
+    input:focus {
+        outline: auto;
     }
     .checkoutPageComponetsMainBillingDetails_container_tittleText {
         margin-top: 35px;

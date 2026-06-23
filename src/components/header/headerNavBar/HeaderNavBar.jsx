@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function HeaderNavBar() {
     return (
         <div className="headerNavBar_container">
-            <nav>
+            <nav aria-label="Main navigation">
                 <ul>
                     <Link to="">
                         <li>Home</li>
@@ -11,9 +11,11 @@ function HeaderNavBar() {
                     <Link to="shoppage">
                         <li>Shop</li>
                     </Link>
-                    <Link>
-                        <li>About</li>
-                    </Link>
+                    {/* <Link to="#about"> */}
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    {/* </Link> */}
                     <Link to="contactpage">
                         <li>Contact</li>
                     </Link>

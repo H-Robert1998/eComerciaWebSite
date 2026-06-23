@@ -12,9 +12,9 @@ function ContactConnectionMainSectionForm() {
                 <input type="text" placeholder="This is an optional" />
                 <p>Message</p>
                 <input type="text" placeholder="Hi! i’d like to ask about" />
-                <div className="ContactConnectionMainSectionForm_container_blok_btnSubmit">
+                <button className="ContactConnectionMainSectionForm_container_blok_btnSubmit">
                     Submit
-                </div>
+                </button>
             </div>
         </div>
     );

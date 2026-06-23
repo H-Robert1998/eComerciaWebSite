@@ -1,13 +1,11 @@
 .ourProductsSectionContentImg_container {
 }
 .ourProductsSectionContentImg_container_blok {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    img {
-        /* margin-top: 5px; */
-        /* margin-left: 2px; */
-    }
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: repeat(auto-fit, 290px);
+    justify-content: center;
 }
 .ourProductsSectionContentImg_container_blok_itemstext {
     margin-bottom: 20px;
@@ -80,6 +78,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+
     p {
         color: #b88e2f;
         font-size: 16px;

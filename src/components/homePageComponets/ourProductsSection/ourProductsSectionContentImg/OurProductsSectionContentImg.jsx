@@ -180,9 +180,12 @@ function OurProductsSectionContentImg(props) {
                                 colorbg={items.colorbg}
                             />
                             <div className="container_blok_itemstext_clikAddCard">
-                                <div className="container_blok_itemstext_clikAddCard_Btn">
+                                <button
+                                    tabindex="-1"
+                                    className="container_blok_itemstext_clikAddCard_Btn"
+                                >
                                     <p>Add to cart</p>
-                                </div>
+                                </button>
                                 <div className="container_blok_itemstext_clikAddCard_IconTextblok">
                                     <div>
                                         <svg

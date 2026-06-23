@@ -23,7 +23,9 @@ function CartMainCartTotals() {
                         Rs. 250,000.00
                     </p>
                 </div>
-                <div className="artMainCartTotals_btnCheckOut">Check Out</div>
+                <button className="artMainCartTotals_btnCheckOut">
+                    Check Out
+                </button>
             </div>
         </div>
     );

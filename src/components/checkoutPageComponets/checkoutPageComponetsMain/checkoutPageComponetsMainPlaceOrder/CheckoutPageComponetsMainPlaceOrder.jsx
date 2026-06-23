@@ -67,9 +67,9 @@ function CheckoutPageComponetsMainPlaceOrder() {
                 for other purposes described in our
                 <strong> privacy policy.</strong>
             </p>
-            <div className="checkoutPageComponetsMainPlaceOrder_container_btnPlaceorder">
+            <button className="checkoutPageComponetsMainPlaceOrder_container_btnPlaceorder">
                 Place order
-            </div>
+            </button>
         </div>
     );
 }

@@ -4,18 +4,18 @@ function AllShopProductsSectionPageNavigation() {
     return (
         <div className="allShopProductsSectionPageNavigation_container">
             <div className="allShopProductsSectionPageNavigation_container_blok">
-                <div className="allShopProductsSectionPageNavigation_container_blok_Navselect">
+                <button className="allShopProductsSectionPageNavigation_container_blok_Navselect">
                     1
-                </div>
-                <div className="allShopProductsSectionPageNavigation_container_blok_Nav">
+                </button>
+                <button className="allShopProductsSectionPageNavigation_container_blok_Nav">
                     2
-                </div>
-                <div className="allShopProductsSectionPageNavigation_container_blok_Nav">
+                </button>
+                <button className="allShopProductsSectionPageNavigation_container_blok_Nav">
                     3
-                </div>
-                <div className="allShopProductsSectionPageNavigation_container_blok_Navnext">
+                </button>
+                <button className="allShopProductsSectionPageNavigation_container_blok_Navnext">
                     Next
-                </div>
+                </button>
             </div>
         </div>
     );

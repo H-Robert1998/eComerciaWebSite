@@ -9,16 +9,16 @@ function CheckoutPageComponetsMainBillingDetails() {
                 </p>
                 <div className="checkoutPageComponetsMainBillingDetails_container_blokInputName">
                     <div className="checkoutPageComponetsMainBillingDetails_container_blokInputName_blok1">
-                        <p>First Name</p>
-                        <input type="text" />
+                        <label htmlFor="name">First Name</label>
+                        <input type="text" id="name" />
                     </div>
                     <div className="checkoutPageComponetsMainBillingDetails_container_blokInputName_blok2">
-                        <p>Last Name</p>
-                        <input type="text" />
+                        <label htmlFor="lastname">Last Name</label>
+                        <input type="text" id="lastname" />
                     </div>
                 </div>
-                <p>Company Name (Optional)</p>
-                <input type="text" />
+                <label htmlFor="Company">Company Name (Optional)</label>
+                <input type="text" id="Company" />
                 <p>Country / Region</p>
                 <div className="checkoutPageComponetsMainBillingDetails_container_blok_select-wrapper">
                     <select name="" id="">
@@ -27,10 +27,10 @@ function CheckoutPageComponetsMainBillingDetails() {
                         <option>Sri Lanka</option>
                     </select>
                 </div>
-                <p>Street address</p>
-                <input type="text" />
-                <p>Town / City</p>
-                <input type="text" />
+                <label htmlFor="Street">Street address</label>
+                <input type="text" id="Street" />
+                <label htmlFor="town">Town / City</label>
+                <input type="text" id="town" />
                 <p>Province</p>
                 <div className="checkoutPageComponetsMainBillingDetails_container_blok_select-wrapper">
                     <select name="" id="">
@@ -39,12 +39,12 @@ function CheckoutPageComponetsMainBillingDetails() {
                         <option>Western Province</option>
                     </select>
                 </div>
-                <p>ZIP code</p>
-                <input type="text" />
-                <p>Phone</p>
-                <input type="text" />
-                <p>Email address</p>
-                <input type="text" />
+                <label htmlFor="ZIP">ZIP code</label>
+                <input type="text" id="ZIP" />
+                <label htmlFor="Phone">Phone</label>
+                <input type="email" id="Phone" />
+                <label htmlFor="Email">Email address</label>
+                <input type="text" id="Email" />
                 <input
                     type="text"
                     className="checkoutPageComponetsMainBillingDetails_container_blok_lastInput"

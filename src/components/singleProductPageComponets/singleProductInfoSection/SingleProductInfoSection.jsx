@@ -140,12 +140,12 @@ function SingleProductInfoSection() {
                             <p>1</p>
                             <p>+</p>
                         </div>
-                        <div className="singleProductInfoSection_container_blok_section3_BtnContener_addToCart">
+                        <button className="singleProductInfoSection_container_blok_section3_BtnContener_addToCart">
                             Add To Cart
-                        </div>
-                        <div className="singleProductInfoSection_container_blok_section3_BtnContener_compare">
+                        </button>
+                        <botton className="singleProductInfoSection_container_blok_section3_BtnContener_compare">
                             + Compare
-                        </div>
+                        </botton>
                     </div>
                     <hr style={{ marginTop: "60px" }} />
                     <div className="singleProductInfoSection_container_blok_section3_footerContener">
